@@ -33,9 +33,9 @@ public class PowerSummaryPanel extends TrackPanel<PowerSummaryPanel> {
   private static final double HOVER_PADDING = 4;
   private static final double CURSOR_SIZE = 5;
   private static Unit unit;
+  private static final double TRACK_HEIGHT = 80;
 
   protected final PowerSummaryTrack track;
-  protected static final double TRACK_HEIGHT = 80;
   protected HoverCard hovered = null;
 
   public PowerSummaryPanel(State state, PowerSummaryTrack track) {
