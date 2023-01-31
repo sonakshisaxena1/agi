@@ -77,6 +77,7 @@ import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.MenuItem;
 import org.eclipse.swt.widgets.ProgressBar;
 import org.eclipse.swt.widgets.Sash;
+import org.eclipse.swt.widgets.Scale;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Spinner;
 import org.eclipse.swt.widgets.TabFolder;
@@ -267,6 +268,17 @@ public class Widgets {
       ToolBar bar, Image image, Listener listener, String tip) {
     return createToolItem(bar, SWT.CHECK, image, listener, tip);
   }
+
+  // public static Scale createScaleItem(Toolbar bar, String text, Listener listener, String tip) {
+  //     Scale scale = new Scale(bar, SWT.HORIZONTAL);
+  //     scale.setMinimum(1);
+  //     scale.setMaximum(19);
+  //     scale.setSelection(10);
+  //     scale.setPageIncrement(3);
+  //     scale.setIncrement(1);
+  //     return scale;
+  // }
+  
 
   public static ToolItem createToggleToolItem(
       ToolBar bar, String text, Listener listener, String tip) {

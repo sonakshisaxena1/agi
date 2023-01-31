@@ -140,6 +140,7 @@ public interface Theme {
   @Icon(file = "zoom_fit.png") public Image zoomFit();
   @Icon(file = "zoom_in.png") public Image zoomIn();
   @Icon(file = "zoom_mode.png") public Image zoomMode();
+  @Icon(file = "zoom_mode.png") public Image testMode();
   @Icon(file = "zoom_out.png") public Image zoomOut();
 
   @IconSequence(names = {
